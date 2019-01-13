@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 bot.login(process.env.TOKEN);
 
 bot.on('message', function (message){
-    if (message.content === 'ltf!Facebook') {
+    if (message.content === 'ltf!Fb') {
         message.channel.send('Salut, je suis le nouveau bot de LTF, je suis le bot officiel d‘ailleurs !  Ne m’en voulez pas je suis encore en développement, mais j‘éspère être à jour rapidement !   **Lache un j´aime, https://www.facebook.com/lateamfraternels** @here')
     }
 })
