@@ -15,7 +15,19 @@ bot.on('message', function (message){
 })
 
 bot.on('message', function (message){
-    if (message.content === 'bonjour', 'salut', 'yo') {
+    if (message.content === 'bonjour') {
+        message.channel.send('**Salut à toi jeune padawan !**')
+    }
+})
+
+bot.on('message', function (message){
+    if (message.content === 'yo') {
+        message.channel.send('**Salut à toi jeune padawan !**')
+    }
+})
+
+bot.on('message', function (message){
+    if (message.content === 'salut') {
         message.channel.send('**Salut à toi jeune padawan !**')
     }
 })
