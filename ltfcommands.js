@@ -13,3 +13,9 @@ bot.on('message', function (message){
         message.channel.send('**Hey les petits amis !Voila notre site web !** https://lateamfraternel.wixsite.com/website?fbclid=IwAR0HiQzDJleKs4JjOrNNgCvcHZSmGwX2rTiPccIsi1tS6pIe49sC438Fhcc @here')
     }
 })
+
+bot.on('message', function (message){
+    if (message.content === 'bonjour', 'salut', 'yo') {
+        message.channel.send('**Salut à toi jeune padawan !**')
+    }
+})
